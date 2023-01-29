@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoothies</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="smoothie.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-color">
+        
+    <a href="index.html"><img class="logosize" src="img/logo1.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="font-size:x-large;" href="index.html" id="navcol"><b> Home</b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="font-size:x-large;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navcol">
+            <b> Categories</b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="healthy snacks-main page.html">Healthy Snacks</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="kids for snacks-main page.html">Snacks For Kids</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="easy on stomach-main page.html">Easy On Stomach Snacks</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Smoothies</a></li> 
+          </ul>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="font-size:x-large;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navcol">
+                <b> Recipes</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="healthrecpi.html">Healthy Snacks Recipes</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="KidsSnacksReci.html">Snacks For Kids Recipes</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Easy On Stomach Snacks Recipes</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="smoothiesrecpi.html">Smoothies Recipes</a></li>
+              </ul>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="font-size:x-large;" href="aboutUs.html" id="navcol"><b> About Us</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="font-size:x-large;" href="contactus.html" id="navcol"><b> Contact Us</b></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn"  type="submit" id="navcol" ><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="form.html" target="_blank"><button class="btn" type="button" id="navcol" ><i class="fa-solid fa-user"></i></button></a>
+        <button  id="navcol" class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-cart-shopping"></i></button>
+      </form>
+    </div>
+    </nav>
+                                                        <!-- add to cart -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header">
+<h2 id="offcanvasRightLabel"><b>Add to Cart</b></h2>
+<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+</div>
+
+  <!-- smoothie cards -->
+  <div style="width: 100%;" class="ab img-fluid">
+    <h1 class="smoothie-h">smoothies</h1>
+  </div>
+  <hr style="margin-left: 10%;" width="80%">
+
+
+  <!-- cards Code -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div id="28" class=" col-lg-4 col-md-6 d-flex justify-content-center mt-5 ">
+        <a href="./smoothies-buy now-pages/mango.html" class="linc">
+        <div class="card" style="width: 23rem; height:530px;">
+          <img src="./smoothies pics/mango-smooth1.png" height="400" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name a">Mango Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 420</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div id="29" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/vanila.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/vanila-smoothie2.png" height="400"  class="card-img-top " alt="...">
+          <div class="card-body">
+            <h1 class="name b">Vanila Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 360</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="30" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/cholate.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/Chocolate-smoothie3.jpg"height="400"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name c">Chocolate Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 380</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="31" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/strawbreey.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/strawberry-smoothie4.png"height="400"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name d">Strawberry Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 400</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="32" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/kiwi.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/Kiwi-smoothie5.png"height="400"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name e">Kiwi Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 470</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="33" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/bluebarry.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/Balanced-Blueberry-Breakfast-Smoothie-1.jpg"height="400"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name f">Blueberry Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 530</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="34" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/water.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/Watermelon-Cucumber-Smoothie.jpg"height="400"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name g">watermelon Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 340</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="35" class="col-lg-4 col-md-6 d-flex justify-content-center mt-5  ">
+        <a href="./smoothies-buy now-pages/orange.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/orange-julius-smoothie.jpg"height="400"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h1 class="name h">Orange Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 390</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div id="36" class="col-lg-4 col-md-12 d-flex justify-content-center mt-5 ">
+        <a href="./smoothies-buy now-pages/banana.html" class="linc">
+        <div class="card" style="width: 23rem; height: 530px;">
+          <img src="./smoothies pics/Peanut-Butter-Banana-Smoothie-recipe.png"height="400"   alt="...">
+          <div class="card-body">
+            <h1 class="name i">Banana Smoothie</h1>
+            <div class="detail-bt">
+              <p class="price">Rs. <span> 320</span></p>
+              <a href="#" id="card-btn">Add To Card</a>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- End cards Code -->
+<!-- footer -->
+<div class="container-fluid my-0 p-0">
+  <!-- Footer -->
+  <footer
+    class="text-center text-lg-start text-dark"
+    style="background-color: #fd9843"
+  >
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start">
+        <!-- Grid row -->
+        <div class="row mt-0">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 p-3">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">QUICK SNACKS</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p class="quick">
+              Quick Snacks participates in various affiliate<br />
+              marketing programs, which means we may get paid<br />
+              ©2023 Hearst Magazine Media, Inc. All Rights Reserved.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 p-3">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p>
+              <a href="#" class="text-light">HEALTHY SNACKS</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">SNACKS FOR KIDS</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">EASY ON STOMACH SNACKS</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">SMOOTHIES</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 p-3">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p>
+              <a href="#" class="text-light">Your Account</a>
+            </p>
+            <p>
+              <a href="feedback.html" class="text-light">Feedback</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#" class="text-light">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 p-3">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #7c4dff; height: 2px"
+            />
+            <p>
+              <i class="fas fa-home mr-3"></i>
+              <a
+                href="https://www.mapquest.com/us/new-york/10012-ny-286270627"
+                target="_blank"
+                class="map"
+                >New York, NY 10012, US</a
+              >
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>
+              <a href="mailto:info@example.com" class="map"
+                >info@example.com</a
+              >
+            </p>
+            <p class="phone">
+              <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+            </p>
+            <p class="phone">
+              <i class="fas fa-print mr-3"></i> + 01 234 567 89
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <hr style="color: #fff" />
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-between p-4 text-white"
+      style="background-color: #fd9843; width: 100%"
+    >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="icon">
+        <a href="https://www.facebook.com/" target="_blank" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.google.com/" target="_blank" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+    <!-- Section: Links  -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+<script src="menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+*{
+    font-family:Arial;
+}
+.navbar-color{
+    background-color: #fd9843;
+    border:crimson 2px solid; 
+}
+.nav-item{
+    margin-left:25px ;
+    /* margin-right:25px ; */
+}
+.nav-link{
+    color: crimson;
+}
+#offcanvasRightLabel{
+    color:#fd9843;
+}
+#atcp{
+    padding-top: 250px;
+}
+#atcb{
+    /* border-radius:30px; */
+    border:crimson 1px solid ;
+    color:#fd9843;
+}
+#atcb:hover{
+    border-radius:30px;
+    border: #fd9843 1px solid ;
+    color:crimson;
+}
+#navcol{
+    color: white;
+    font-family: 'Times New Roman';
+}
+.logosize{
+  width: 150px;
+  height:80px ;
+}
+/* card */
+
+.cardh{
+    font-family: 'Times New Roman';
+
+    background:linear-gradient(to top right,yellow,red,blue);
+    color: transparent;
+    -webkit-background-clip:text;
+    /* font-size:50px; */
+}
+.p-orange{
+    color: #fd9843;
+}
+    /* footer */
+
+    .fab {
+        font-size: 20px;
+      }
+      .icon a {
+        text-decoration: none;
+      }
+      .map {
+        text-decoration: none;
+        color: black;
+        color: aliceblue;
+      }
+      .phone {
+        cursor: pointer;
+      }
+  
+      .text-uppercase {
+        color: aliceblue;
+      }
+      .quick {
+        color: aliceblue;
+      }
+      .fas {
+        color: aliceblue;
+      }
+      .phone {
+        color: aliceblue;
+      }   
+      
+.text-light{text-decoration: none;}

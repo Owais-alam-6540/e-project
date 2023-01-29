@@ -1,0 +1,264 @@
+* {
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.navbar-color {
+  background-color: #fd9843;
+  border: crimson 2px solid;
+}
+.nav-item {
+  margin-left: 25px;
+  /* margin-right:25px ; */
+}
+.nav-link {
+  color: crimson;
+}
+#offcanvasRightLabel {
+  color: #fd9843;
+}
+#atcp {
+  padding-top: 300px;
+}
+#atcb {
+  /* border-radius:30px; */
+  border: crimson 1px solid;
+  color: #fd9843;
+}
+#atcb:hover {
+  border-radius: 30px;
+  border: #fd9843 1px solid;
+  color: crimson;
+}
+#navcol {
+  color: white;
+  font-family: "Times New Roman";
+}
+.logosize{
+  width: 150px;
+  height: 80px;
+}
+
+/* buynow */
+
+#add {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #fd8943;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  text-align: center;
+}
+#add:hover {
+  width: 150px;
+  height: 50px;
+  color: crimson;
+  background-color: #fd8943;
+  border-radius: 10px;
+  border: none;
+}
+#buy {
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 60px;
+  color: white;
+  background-color: #fd8943;
+  border: none;
+}
+#buy:hover {
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 60px;
+  color: crimson;
+  background-color: #fd8943;
+}
+#relate {
+  text-align: center;
+  background: linear-gradient(to top right, yellow, red);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* footer */
+.fab {
+  font-size: 20px;
+}
+.icon a {
+  text-decoration: none;
+}
+.map {
+  text-decoration: none;
+  color: black;
+  color: aliceblue;
+}
+.phone {
+  cursor: pointer;
+}
+
+.text-uppercase {
+  color: aliceblue;
+}
+.quick {
+  color: aliceblue;
+}
+.fas {
+  color: aliceblue;
+}
+.phone {
+  color: aliceblue;
+}
+
+
+.stars-container{
+  display: flex;}
+
+.stars-container > .stars {color: #fd8943;}
+  
+.stars-number{
+  color: #fd8943;
+  font-weight: 600;}
+
+.h-line{width:70% ;}
+
+
+.info{
+  width: 100%;
+  display: flex;
+}
+
+
+.quan{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.quan-num{margin-top: 8px;}
+
+
+.wrapper{
+    height: 40px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.wrapper span{
+  padding: 0;
+    width:10%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer; }
+
+.wrapper span.num{
+    font-size:25px ;
+    pointer-events:none ;
+}
+
+.plus{border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+  }
+
+.minus{border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 100%;
+  }
+
+
+#btn-dv {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  width: 70%;
+}
+
+
+
+
+#card-btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  background: 3fff;
+  width: 160px;
+  height: 45px;
+  margin-left: 15px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fd9843;
+  border: 2px #fd9843 solid;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+#card-btn:hover,
+#card-btn:focus,
+#card-btn:active {
+  background-color: #fd9843;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#buy-btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  background: 3fff;
+  width: 160px;
+  height: 45px;
+  margin-left: 15px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: limegreen;
+  border: 2px limegreen solid;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+#buy-btn:hover,
+#buy-btn:focus,
+#buy-btn:active {
+  background-color: limegreen;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+.text-light {
+  text-decoration: none;
+}
+
+#r-name {
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: capitalize;}
+
+.card-text {
+  font-size: 20px;
+  font-weight: bold;}
